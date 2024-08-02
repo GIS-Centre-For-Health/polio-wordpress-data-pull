@@ -1,0 +1,10 @@
+version: '3.8'
+
+services:
+  polio-api:
+    build:
+      context: .
+    ports:
+      - "8001:8001"
+    container_name: polio-api
+
